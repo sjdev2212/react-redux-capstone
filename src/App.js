@@ -1,11 +1,12 @@
 import './App.css';
+import Home from './components/Home/Home';
+import Cities from './components/Cities/Cities';
 
 function App() {
   return (
 <section>
-  <h1>
-    CAPSTONE
-  </h1>
+<Home />
+<Cities />
 </section>
   );
 }
