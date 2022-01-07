@@ -23,7 +23,7 @@ This project is about building a mobile web application to check a list of metri
 
 ## Presentation
 
-[Video Link](https://www.loom.com/share/f74627c586364dd791d376477ec8e733)
+[Video Link](https://www.loom.com/share/5ff15e8e2f8745d9840299d98d1d49b3)
 
 
 ## Getting Started
@@ -81,8 +81,6 @@ The Covid-19 application collects information from different data sources to pro
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](https://github.com/Emmy-github-webdev/covid-19-app/issues).
 
 ## Show your support
 
