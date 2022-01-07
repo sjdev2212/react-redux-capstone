@@ -1,5 +1,3 @@
-/* eslint-disable import/no-dynamic-require */
-/* eslint-disable global-require */
 import React from 'react';
 import { useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
@@ -11,7 +9,9 @@ const Countries = () => {
 
       {allCountries.map((element) => (
         <div className="countries-div" key={element.All.iso}>
-          <img className="pics" src={require(`../../assets/${element.All.country}.png`)} alt="map" />
+
+          <img className="pics" src={require(`../../assets/${element.All.country}.png`)} alt="map" />   {/* eslint-disable-line */}
+
           <h4>{element.All.country}</h4>
           <p>
             Capital City :
@@ -46,4 +46,5 @@ const Countries = () => {
     </section>
   );
 };
+
 export default Countries;

@@ -19,7 +19,7 @@ This project is about building a mobile web application to check a list of metri
 
 ## Live Demo
 
-[Live Demo Link](https://react-redux-capstone-sj1978.herokuapp.com//)
+[Live Demo Link](https://react-redux-capstone-sj1978.herokuapp.com)
 
 ## Presentation
 
