@@ -1,17 +1,17 @@
 import './App.css';
 import { Routes, Route } from 'react-router-dom';
 import Home from './components/Home/Home';
-import Cities from './components/Cities/Cities';
+import Countries from './components/Countries/Countries';
 
 function App() {
   return (
-<section>
+<section className='container wrapper'>
 
 
 <Routes>
         <Route exact path="/" element={<Home />} />
 
-        <Route path="/cities" element={<Cities />} />
+        <Route path="/countries" element={<Countries />} />
 
       
 

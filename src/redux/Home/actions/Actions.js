@@ -1,7 +1,7 @@
-export const FETCH_CITIES = 'FETCH_CITIES';
+export const FETCH_COUNTRIES = 'FETCH_COUNTRIES';
 export const FETCH_ONE = 'FETCH_ONE'
 
-export const GetOneCity = (payload) => ({
+export const GetOne = (payload) => ({
     type: 'FETCH_ONE',
     payload,
   });

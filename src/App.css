@@ -1,4 +1,202 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+#root{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  margin: 0;
+  padding: 0 15px;
+}
+.wrapper{
+  max-width: 600px;
+}
+@media screen and (max-width: 800px){
 *{
-  background-color: #2874A6;
+  background-color: #4369B2;
+  font-family: 'Lato', sans-serif
+  }
+
+  .countries-div h4{
+    font-size: 6vw;
+    color: beige;
+    margin: 1vw 3vw;
+      }
+      .countries-div p {
+        font-size: 4vw;
+    color: beige;
+    margin: 1vw 3vw;
+      }
+.main {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  width :93.8vw;
+}
+
+.lists{
+  border: 1px solid rgb(36, 34, 34);
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  display: grid;
+  position: relative;
+  
+}
+.container{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.lists:nth-child(4n-2){
+  background-color: #6882c6;
+}
+.lists:nth-child(4n-1){
+  background-color: #6882c6;
+}
+.lists *{
+  background-color: transparent;
+  
+}
+.btn {
+  text-decoration: none;
+  border: none;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  position: absolute;
+  top: 4px;
+  right: 4px;
 
 }
+.title-country{
+font-size: 6vw;
+
+}
+.icon{
+  color: beige;
+  width: auto;
+  height: 6vw;
+}
+.pics {
+  height: 42vw;
+  position: absolute;
+  right: 16px;
+}
+.pics-home{
+  height: 11.5vw;
+  justify-self: center;
+  position: relative;
+  bottom: 3.5vw;
+}
+}
+
+@media screen and (min-width: 800px){
+  *{
+    background-color: #4369B2;
+    font-family: 'Lato', sans-serif
+    
+  
+  }
+  .countries-div h4{
+    font-size: 6vw;
+    color: beige;
+    margin: 1vw 3vw;
+      }
+      .countries-div p {
+        font-size: 4vw;
+    color: beige;
+    margin: 1vw 3vw;
+      }
+    
+    
+  .main {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    width :93.8vw;
+  }
+  
+  .lists{
+    border: 1px solid rgb(36, 34, 34);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    display: grid;
+    position: relative;
+    
+  }
+  .container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .lists:nth-child(4n-2){
+    background-color: #6882c6;
+  }
+  .lists:nth-child(4n-1){
+    background-color: #6882c6;
+  }
+  .lists *{
+    background-color: transparent;
+    
+  }
+  .btn {
+    text-decoration: none;
+    border: none;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    position: absolute;
+    top: 4px;
+    right: 4px;
+  
+  }
+  .title-country{
+  font-size: 6vw;
+  
+  }
+  .icon{
+    color: beige;
+  }
+  .pics {
+    height: 42vw;
+    position: absolute;
+    right: 16px;
+  }
+  .pics-home{
+    height: 15vw;
+    justify-self: center;
+    display: none;
+  }
+  }
+
+  .main-heading{
+    font-size: 6vw;
+    color: beige;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .picker {
+    font-size: 5vw;
+    color: beige;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+
+ 

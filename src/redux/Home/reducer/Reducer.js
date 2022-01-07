@@ -1,17 +1,18 @@
-import {FETCH_CITIES, FETCH_ONE} from '../actions/Actions'
+import { FETCH_COUNTRIES, FETCH_ONE} from '../actions/Actions'
 
 const initialState = [];
 
-const citiesReducer = (state = initialState, action) => {
+const countriesReducer = (state = initialState, action) => {
   switch (action.type) {
-    case FETCH_CITIES:
-      return [...action.fetchedCities];
+    case FETCH_COUNTRIES:
+       return [...action.fetchedCountries];
+
   case FETCH_ONE:
-    const oneCity = state.filter((city) => city.key === action.payload)
-    return oneCity
+    const oneCountry = state.filter((elem) => elem.All.iso === action.payload)
+    return oneCountry
     default:
       return state;
   }
 };
 
-export default citiesReducer;
+export default countriesReducer;

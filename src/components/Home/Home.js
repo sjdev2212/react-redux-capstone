@@ -2,40 +2,35 @@ import React from 'react'
 import { useSelector, useDispatch } from 'react-redux';
 import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import getCities from '../../redux/Home/thunk/Apicall'
-import { GetOneCity } from '../../redux/Home/actions/Actions';
+import getCountries from '../../redux/Home/thunk/Apicall'
+import { GetOne } from '../../redux/Home/actions/Actions';
+import { Header } from '../Header/Header';
 
 
 
  const Home = () => {
 
-
   const dispatch = useDispatch();
 
   useEffect(() => {
-    dispatch(getCities());
-  
-  // eslint-disable-next-line react-hooks/exhaustive-deps
+    dispatch(getCountries());
   }, []);
 
-  const allCities = useSelector((state) => state.citiesReducer)
-
+  const allCountries = useSelector((state) => state.countriesReducer)
 
     return (
-      <section>
-        <h1>Choose a City</h1>
-            {allCities.map((m) => ( 
-        <li key={m.key}>
-          <p>{m.name}</p>
-   
-        <button type='button' onClick={()=> dispatch(GetOneCity(m.key))}><Link className="link" to="/cities">See More...</Link></button> 
-        </li>
-         )
-
-            )}
-          
+      <section  className='main'>
+        <Header />
+        <h1 className='main-heading'>Covid in South America</h1>
+        <h2 className='picker'>Choose a Country</h2>
+        <section className='container list-wraper'>
+      {allCountries.map(element  => (<div key={element.All.iso} className='lists'> <h2 className='title-country'>{element.All.country}</h2>
+      <img className='pics-home' src={require(`../../assets/${element.All.country}-flag.png`)} alt="map" />
+      <button className='btn' type='button' onClick={()=> dispatch(GetOne(element.All.iso))}><Link className="link" to="/countries"><i className="fas fa-arrow-circle-right icon"></i></Link></button> </div>))}
       </section>
-    )
+        </section>
+         )
+  
 }
 
 export default Home;
