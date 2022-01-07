@@ -19,7 +19,7 @@ This project is about building a mobile web application to check a list of metri
 
 ## Live Demo
 
-[Live Demo Link](https://sad-heyrovsky-c7f6a5.netlify.app/)
+[Live Demo Link](https://react-redux-capstone-sj1978.herokuapp.com//)
 
 ## Presentation
 
@@ -55,7 +55,7 @@ npm install axios
 npm install react-router-dom
 
 ### Clone Project
-[Covid-19-app](https://github.com/Emmy-github-webdev/covid-19-app)
+[Covid-19-app](https://github.com/sj1978/react-redux-capstone.git)
 
 ### Usage
 
@@ -66,7 +66,6 @@ The Covid-19 application collects information from different data sources to pro
 - npm run test
 
 ### Deployment
-- [Netlify](https://www.netlify.com/)
 
 - [Heroku](https://www.heroku.com/)
 
@@ -75,9 +74,8 @@ The Covid-19 application collects information from different data sources to pro
 
 👤 **Anibal Amoroso**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/sj1978)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/anibalamoroso/)
 
 
 ## 🤝 Contributing
@@ -90,10 +88,11 @@ Feel free to check the [issues page](https://github.com/Emmy-github-webdev/covid
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
+## Acknowledgements
 
-- [Narrative](https://covid19tracking.narrativa.com/index_en.html).
-- Inspiration
+Amazing design by: [Nelson Sakwa](https://www.behance.net/sakwadesignstudio)
+
+
 
 ## 📝 License
 
