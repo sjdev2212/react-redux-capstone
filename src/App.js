@@ -5,18 +5,15 @@ import Countries from './components/Countries/Countries';
 
 function App() {
   return (
-<section className='container wrapper'>
+    <section className="container wrapper">
 
-
-<Routes>
+      <Routes>
         <Route exact path="/" element={<Home />} />
 
         <Route path="/countries" element={<Countries />} />
 
-      
-
       </Routes>
-</section>
+    </section>
   );
 }
 
