@@ -5,8 +5,8 @@
 > In this project I created a SPA application using react-redux to consume Covid 19 Data API
 
 ![screenshot](./src/assets/snap1.png)
-![screenshot]('./src/assets/snap2.png')
-![screenshot]('./src/assets/snap3.png')
+![screenshot](./src/assets/snap2.png)
+![screenshot](./src/assets/snap3.png)
 
 This project is about building a mobile web application to check a list of metrics using React and Redux.
 
